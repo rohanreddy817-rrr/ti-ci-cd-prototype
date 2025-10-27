@@ -23,5 +23,4 @@ jobs:
       - name: Run threat intelligence check
         env:
           VT_API_KEY: ${{ secrets.VT_API_KEY }}
-        run: |
-          python check_threats.py --scan
+        run: python check_threats.py --scan
